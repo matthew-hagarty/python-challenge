@@ -1,1 +1,3 @@
-# python-challenge
+Python Challenge
+In this challenge, we analyze a profit/loss chart displaying the total, average change, and greatest increase and decrease over the months. We also analyze a sample vote for candidates, determining who won and what percent of votes each candidate got, as well as exporting both sets of results to text files.
+Some code (noted in comments of each script) sourced from classmates and from https://datagy.io/python-write-text-file/ . 
