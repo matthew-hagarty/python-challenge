@@ -18,7 +18,7 @@ with open(budget_file) as csvfile:                        #open csv file
     
     csvreader = csv.reader(csvfile)                       #read csv file
     
-    next(csvreader)                                       #skips past the header which says [month, profits]
+    pybank_header = next(csvreader)                       #skips past the header which says [month, profits]
     
     for row in csvreader:                                 #for loop to count over all months
         months += 1                                       #count up one month

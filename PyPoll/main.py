@@ -15,7 +15,7 @@ with open(poll_file) as csvfile:                   #open csv file
     
     csvreader = csv.reader(csvfile)                #read csv file
     
-    next(csvreader)                                #skip header
+    pypoll_header = next(csvreader)                #skip header and save as variable
     
     for row in csvreader:                          #for loop
         
